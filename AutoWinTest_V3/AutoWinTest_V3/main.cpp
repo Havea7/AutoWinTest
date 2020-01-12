@@ -25,7 +25,7 @@ int main()
 	//BOOL EnableWindow(HWND hWnd, BOOL bEnable);
 
 	
-
+adfgasdgadfgadfgadfg
 }
 
  

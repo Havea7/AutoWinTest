@@ -1,0 +1,20 @@
+﻿Build started 1/2/2020 2:02:35 PM.
+     1>Project "C:\Users\Havea Daure\Desktop\AutoWinTest\AutoWinTest\AutoWinTest\AutoWinTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\AutoWinTest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\AutoWinTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AutoWinTest.cpp
+         AutoWinTest.cpp
+     1>c:\users\havea daure\desktop\autowintest\autowintest\autowintest\autowintest.cpp(16): error C2668: 'std::to_string' : ambiguous call to overloaded function
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(688): could be 'std::string std::to_string(long double)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(680): or       'std::string std::to_string(_ULonglong)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(672): or       'std::string std::to_string(_Longlong)'
+                 while trying to match the argument list '(UINT)'
+     1>c:\users\havea daure\desktop\autowintest\autowintest\autowintest\autowintest.cpp(20): error C2039: 'cout' : is not a member of 'std'
+     1>c:\users\havea daure\desktop\autowintest\autowintest\autowintest\autowintest.cpp(20): error C2065: 'cout' : undeclared identifier
+     1>Done Building Project "C:\Users\Havea Daure\Desktop\AutoWinTest\AutoWinTest\AutoWinTest\AutoWinTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.71
